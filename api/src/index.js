@@ -13,7 +13,7 @@ import seedData from './models/seed';
 import loaders from './loaders';
 import ArtistsAPI from './datasource/artists';
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 const app = express();
 app.use(cors());
