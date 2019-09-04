@@ -37,5 +37,5 @@ ENV SECRET=wr3r23fwfwefwekwself.2456342.dawqdq
 ENV DB_HOST=some-postgres
 ENV NODE_ENV production
 
-EXPOSE 8000
+EXPOSE 8080
 CMD yarn serve
